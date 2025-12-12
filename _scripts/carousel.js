@@ -58,6 +58,9 @@
       }
     }
 
+    // Initialize
+    updateCarousel(0);
+    
     // Click events for controls
     if (prevButton) {
       prevButton.addEventListener('click', () => {
@@ -65,33 +68,11 @@
         updateCarousel(currentIndex - 1);
       });
     }
-
+    
     if (nextButton) {
       nextButton.addEventListener('click', () => {
         resetAutoplay();
         updateCarousel(currentIndex + 1);
-      });
-    }
-    
-    // Initialize
-    updateCarousel(0);
-    
-    // Click events for controls
-    if (prevButton) {
-      prevButton.addEventListener('click', () => {
-        if (currentIndex > 0) {
-          resetAutoplay();
-          updateCarousel(currentIndex - 1);
-        }
-      });
-    }
-    
-    if (nextButton) {
-      nextButton.addEventListener('click', () => {
-        if (currentIndex < maxIndex) {
-          resetAutoplay();
-          updateCarousel(currentIndex + 1);
-        }
       });
     }
     
