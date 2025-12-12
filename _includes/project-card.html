@@ -1,0 +1,43 @@
+{% capture project_markup %}
+<div id="project-{{ forloop.index }}" class="project-card">
+  {% assign slug = include.project.title | slugify %}
+  <h2 class="project-title"><a href="/project/{{ slug }}/">{{ include.project.title }}</a></h2>
+  
+  <div class="project-content">
+    <div class="project-text">
+      <div class="project-tags">
+        {% for tag in include.project.tags %}
+          <span class="project-tag" style="background-color: {{ tag | tag_color }}">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      
+      <p class="project-description">{{ include.project.description }}</p>
+
+      {% if include.project.collaborators %}
+      <p class="project-collaborators">
+        <em>Collaborators: {{ include.project.collaborators }}</em>
+      </p>
+      {% endif %}
+
+    </div>
+    
+    <div class="project-image-container">
+      <a href="/project/{{ slug }}/">
+        <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }}" class="project-image">
+      </a>
+    </div>
+  </div>
+  
+  {% if include.project.collaborator_icons %}
+    <div class="collaborator-icons">
+      {% for icon in include.project.collaborator_icons %}
+        <img src="{{ icon.image | relative_url }}" alt="{{ icon.name }}" title="{{ icon.name }}" class="collaborator-icon">
+      {% endfor %}
+    </div>
+  {% endif %}
+  
+  <hr class="project-divider">
+</div>
+{% endcapture %}
+
+{{ project_markup }}

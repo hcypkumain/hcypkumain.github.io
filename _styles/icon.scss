@@ -1,0 +1,19 @@
+---
+---
+
+.icon {
+  font-size: 1em;
+  color: var(--gray); /* Uses your theme's dark gray variable */
+
+  
+}
+
+span.icon {
+  line-height: 1;
+}
+
+span.icon > svg {
+  position: relative;
+  top: 0.1em;
+  height: 1em;
+}

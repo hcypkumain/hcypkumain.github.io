@@ -1,0 +1,76 @@
+{% assign image = page.header | default: site.header | relative_url %}
+{% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
+
+{% assign svg = "images/logo.svg" | file_exists %}
+{% assign png = "images/logo.png" | file_exists %}
+{% assign jpg = "images/logo.jpg" | file_exists %}
+{% assign logo = svg| default: png | default: jpg | default: nil %}
+
+<div id="particles-js"></div>
+
+<header class="background" style="--image: url('{{ image }}')" {% if dark==true or dark==false %} data-dark="{{ dark }}"
+  {% endif %} {% if page.url=="/" %} data-big {% endif %}>
+  <a href="{{ '/' | relative_url }}" class="home">
+    {% if logo %}
+    <div class="logo-container">
+      <span class="imperial-logo">
+        <img src="{{ 'images/Peking University logo.svg' | relative_url }}" alt="Peking University">
+      </span>
+      <span class="logo-divider"></span>
+      <span class="logo">
+        {% if svg %}
+        {{ svg | file_read }}
+        {% else %}
+        <img src="{{ logo | relative_url }}" alt="logo">
+        {% endif %}
+      </span>
+    </div>
+    {% endif %}
+    {% if site.logo-text != false %}
+    <span class="title-text" data-tooltip="Home">
+      {% if site.logo-text != false %}
+      <span class="title-text" data-tooltip="Home">
+        {% if site.title and site.show-title != false %}
+        <span class="title" data-i18n="{{ site.title_key | default: site.title | downcase }}">{{ site.title }}</span>
+        {% endif %}
+        {% if site.subtitle and site.show-subtitle != false %}
+        <span class="subtitle" data-i18n="{{ site.subtitle_key | default: site.subtitle | downcase }}">{{ site.subtitle
+          }}</span>
+        {% endif %}
+      </span>
+      {% endif %}
+    </span>
+    {% endif %}
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    {% if page.url != "/" %}
+    <a href="{{ '/' | relative_url }}" data-tooltip="Return to homepage">
+      <span data-i18n="Home">Home</span>
+    </a>
+    {% endif %}
+
+    {% assign pages = site.pages
+    | where_exp: "page", "page.nav"
+    | sort: "nav.order"
+    %}
+    {% for page in pages %}
+    {% if page.nav %}
+    <a href="{{ page.dir | relative_url }}">
+      <span data-i18n="{{ page.title_key | default: page.title | downcase }}">{{ page.title }}</span>
+    </a>
+    {% endif %}
+    {% endfor %}
+
+    <div id="lang-switcher" style="position: fixed; top: 20px; right: 20px; z-index: 9999;">
+      <img id="flag-zh" class="lang-flag"
+        style="cursor:pointer; margin-right: 20px; width: 40px; height: 30px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); transition: all 0.2s ease;"
+        src="https://flagcdn.com/w80/cn.png" title="中文" alt="🇨🇳">
+      <img id="flag-en" class="lang-flag"
+        style="cursor:pointer; width: 40px; height: 30px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); transition: all 0.2s ease;"
+        src="https://flagcdn.com/w80/gb.png" title="English" alt="🇬🇧">
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,35 @@
+<div class="carousel-container">
+  <div class="carousel-wrapper">
+    <div class="carousel">
+      {% for theme in site.data.themes %}
+        {% if theme.image %}
+          <div class="carousel-item">
+            <div class="carousel-image-container">
+              <img src="{{ theme.image | relative_url }}" alt="{{ theme.title }}" class="carousel-image">
+            </div>
+            <div class="carousel-caption">
+              <h3>{{ theme.title }}</h3>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="carousel-controls">
+    <button class="carousel-control prev" aria-label="Previous slide">
+      <i class="icon fa-solid fa-angle-left"></i>
+    </button>
+    <div class="carousel-indicators">
+      {% for theme in site.data.themes %}
+        {% if theme.image %}
+          <span class="carousel-indicator" data-index="{{ forloop.index0 }}"></span>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <button class="carousel-control next" aria-label="Next slide">
+      <i class="icon fa-solid fa-angle-right"></i>
+    </button>
+  </div>
+</div>
+

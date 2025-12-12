@@ -1,0 +1,121 @@
+{% assign filename = page.path | split: "/" | last %}
+{% if page.name and page.name != filename %}
+{% assign title = page.name %}
+{% elsif page.title %}
+{% assign title = page.title %}
+{% else %}
+{% assign title = nil %}
+{% endif %}
+
+{% assign fulltitle = "" | split: "," %}
+{% if title and page.url != "/" %}
+{% assign fulltitle = fulltitle | push: title | push: " | Brain-inspired Lab | Peking University" %}
+{% elsif page.url == "/" %}
+{% assign fulltitle = fulltitle | push: "Brain-inspired Lab | Peking University" %}
+{% endif %}
+
+{% assign subtitle = site.subtitle %}
+
+{% assign description = page.description | default: site.description %}
+{% if site.subtitle %}
+{% capture description -%}
+{{ site.subtitle }}. {{ description }}
+{%- endcapture %}
+{% endif %}
+{% capture url -%}
+{{ site.url }}{{ site.baseurl }}
+{%- endcapture %}
+
+{% assign jpg = "images/share.jpg" | file_exists %}
+{% assign png = "images/share.png" | file_exists %}
+{% assign share = jpg | default: png | relative_url %}
+
+{% assign published = page.date | date_to_xmlschema %}
+{% assign updated = page.last_modified_at | date_to_xmlschema %}
+
+{% assign feed = "feed.xml" | absolute_url %}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title id="page-title" data-i18n-title="{{ page.title_key | default: page.title | downcase }}">{{ page.title }}</title>
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
+<link rel="alternate icon" href="/images/favicon/favicon.ico">
+<link rel="icon" href="/images/favicon/favicon-32.png" sizes="32x32">
+<link rel="icon" href="/images/favicon/favicon-57.png" sizes="57x57">
+<link rel="icon" href="/images/favicon/favicon-76.png" sizes="76x76">
+<link rel="icon" href="/images/favicon/favicon-96.png" sizes="96x96">
+<link rel="icon" href="/images/favicon/favicon-128.png" sizes="128x128">
+<link rel="icon" href="/images/favicon/favicon-192.png" sizes="192x192">
+<link rel="icon" href="/images/favicon/favicon-228.png" sizes="228x228">
+<link rel="shortcut icon" href="/images/favicon/favicon-196.png" sizes="196x196">
+<link rel="apple-touch-icon" href="/images/favicon/favicon-120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="/images/favicon/favicon-152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="/images/favicon/favicon-180.png" sizes="180x180">
+<meta name="description"
+  content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+<meta name="keywords" content="{{ page.keywords | default: site.keywords | join: ', ' | escape }}">
+<meta name="author" content="{{ site.author | default: 'Brain-inspired Lab' }}">
+
+<meta property="og:title" content="{{ title }}">
+<meta property="og:site_title" content="{{ site.share_title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ url }}">
+<meta property="og:image" content="{{ share }}">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="{{ title }}">
+<meta property="twitter:description" content="{{ description }}">
+<meta property="twitter:url" content="{{ url }}">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="{{ share }}">
+
+<meta name="theme-color" content="#16181b" />
+
+{% if page.author %}
+<meta name="author" content="{{ page.author }}">
+<meta property="og:type" content="article">
+<meta property="og:updated_time" content="{{ updated }}">
+<meta property="article:published_time" content="{{ published }}">
+<meta property="article:modified_time" content="{{ updated }}">
+<meta name="revised" content="{{ updated }}">
+{% else %}
+<meta property="og:type" content="website">
+{% endif %}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    {% if page.author %}
+      "@type": "BlogPosting",
+      "author": { "@type": "Person", "name": "{{ title }}" },
+      "datePublished": "{{ published }}",
+      "dateModified": "{{ updated }}",
+    {% else %}
+      "@type": "ResearchOrganization",
+      "name": "{{ site.title }}",
+      "alternateName": "{{ site.title_full }}",
+      "url": "{{ site.url }}",
+      "logo": "{{ site.url }}/images/logo.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/p-angeloudis/",
+        "https://github.com/tsl-imperial"
+      ],
+      "parentOrganization": {
+        "@type": "EducationalOrganization",
+        "name": "Imperial College London",
+        "url": "https://www.imperial.ac.uk"
+      },
+    {% endif %}
+    "name": "{{ title }}",
+    "description": "{{ description }}",
+    "headline": "{{ title }}",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "{{ icon }}" }
+    },
+    "url": "{{ url }}"
+  }
+  </script>
+
+<link rel="alternate" type="application/rss+xml" href="{{ feed }}">

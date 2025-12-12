@@ -1,0 +1,101 @@
+# site properties and page defaults
+title: Brain-inspired Lab
+title_key: brain_inspired_lab_title
+share_title: Brain-inspired Lab, Peking University
+subtitle: Peking University
+subtitle_key: brain_inspired_lab_subtitle
+description: "The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing."
+keywords: [brain-inspired, neuromorphic computing, artificial intelligence, neural networks, Peking University]
+author: "Brain-inspired Lab"
+footer: images/Peking_University_footer.jpeg
+proofer: false
+header-dark: false
+
+
+url:  https://spikevision.pku.edu.cn
+baseurl: ''
+# Sitemap settings
+sitemap:
+  filename: sitemap.xml
+  exclude:
+    - "/404.html"
+    - "/.bundle/"
+    - "/_cite/"
+
+# site social media and other links
+links:
+  email: hcypkuwork@pku.edu.cn
+  # orcid: 0000-0001-8713-9213
+  github: hcypkuwork
+  # twitter: YourLabHandle
+  # youtube: YourLabChannel
+
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+
+# jekyll plugins
+plugins:
+  - jekyll-loading-lazy
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+  - jekyll-minifier
+
+# code block syntax highlighting
+highlighter: rouge
+
+# jekyll theme
+theme: null
+
+sass:
+  style: compressed  # This compresses the output CSS
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+  - _redirects
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff
+
+jekyll-minifier:
+  exclude: ['*.xml', '*.json', '*.txt']  # Files to exclude from minification
+  remove_spaces_inside_tags: true        # Default: true
+  remove_multi_spaces: true              # Default: true
+  remove_comments: true                  # Default: true
+  preserve_php: true                     # Default: false
+  remove_intertag_spaces: true           # Default: false
+  compress_css: false                    # Default: true
+  compress_javascript: false             # Default: true
+  compress_json: false                   # Default: true

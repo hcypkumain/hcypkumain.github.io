@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<nav aria-label="breadcrumb" class="breadcrumb">
+  <ol class="breadcrumb px-0">
+    <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+  </nav>
+
+<div class="project-detail">
+  <h1>{{ page.title }}</h1>
+
+  {% assign p = page.project %}
+  {% if p %}
+  {% assign img = p.image %}
+  {% assign tags = p.tags %}
+  {% assign collaborators = p.collaborators %}
+  {% assign collaborator_icons = p.collaborator_icons %}
+  {% else %}
+  {% assign img = page.image %}
+  {% assign tags = page.tags %}
+  {% assign collaborators = page.collaborators %}
+  {% assign collaborator_icons = page.collaborator_icons %}
+  {% endif %}
+
+  {% if img %}
+  <p>
+    <img src="/{{ img }}" alt="{{ page.title }}" style="max-width: 100%; height: auto;" />
+  </p>
+  {% endif %}
+
+  {% if tags %}
+  <p class="project-tags" style="text-align: center;">
+    {% for tag in tags %}
+      <span class="project-tag" style="background-color: {{ tag | tag_color }}">{{ tag }}</span>
+    {% endfor %}
+  </p>
+  {% endif %}
+
+  {% if p %}
+  <div class="project-description">
+    {{ p.description }}
+  </div>
+  {% else %}
+  <div class="project-body">
+    {{ content }}
+  </div>
+  {% endif %}
+
+  {% if collaborators %}
+  <p><strong>Collaborators:</strong> {{ collaborators }}</p>
+  {% endif %}
+
+  {% if collaborator_icons %}
+  <div class="collaborator-icons">
+    {% for icon in collaborator_icons %}
+      <img src="/{{ icon.image }}" alt="{{ icon.name }}" title="{{ icon.name }}" class="collaborator-icon">
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>
+
+

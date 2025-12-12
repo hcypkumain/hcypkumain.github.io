@@ -1,0 +1,23 @@
+{% assign image = page.footer | default: site.footer | relative_url %}
+{% assign dark = page.footer-dark | is_nil: site.footer-dark | is_nil: true %}
+
+<footer class="background" style="--image: url('{{ image }}')" {% if dark==true or dark==false %} data-dark="{{ dark }}"
+  {% endif %} data-size="wide">
+  <div>
+    {% for link in site.links %}
+    {% assign key = link[0] %}
+    {% assign value = link[1] %}
+    {% include button.html type=key text="" link=value style="bare" %}
+    {% endfor %}
+  </div>
+  <div>
+    &copy; {{ site.time | date: "%Y" }}
+    {{ site.title }}
+    <br>
+    <br>
+    <a href="https://www.pku.edu.cn">
+      <img src="/images/Peking_University_line.png" alt="Peking University" style="max-width: 150px; height: auto;" />
+    </a>
+  </div>
+
+</footer>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+{% include head.html %}
+<body{% if page.url=="/" %} class="home-page" {% endif %}>
+
+
+  <script>
+    let langData = {};
+    let currentLang = localStorage.getItem('lang') || 'en';
+
+    // 1. 加载语言包
+    fetch('/assets/lang.json')
+      .then(response => response.json())
+      .then(data => {
+        langData = data;
+        setLang(currentLang);
+      });
+
+    // 2. 切换语言函数
+    function setLang(lang) {
+      currentLang = lang;
+      localStorage.setItem('lang', lang);
+
+      // 替换所有 data-i18n-title
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (langData[lang] && langData[lang][key]) {
+          el.innerHTML = langData[lang][key];
+        }
+      });
+
+      // 替换 <title>
+      const titleEl = document.getElementById('page-title');
+      if (titleEl) {
+        const titleKey = titleEl.getAttribute('data-i18n-title');
+        if (langData[lang] && langData[lang][titleKey]) {
+          document.title = langData[lang][titleKey];
+        }
+      }
+
+      // 设置国旗选中状态
+      const flagZh = document.getElementById('flag-zh');
+      const flagEn = document.getElementById('flag-en');
+
+      if (lang === 'zh') {
+        flagZh.style.transform = 'scale(1.4)';
+        flagZh.style.boxShadow = '0 2px 8px rgba(0,0,0,0.3)';
+        flagEn.style.transform = 'scale(1)';
+        flagEn.style.boxShadow = '0 1px 3px rgba(0,0,0,0.2)';
+      } else {
+        flagEn.style.transform = 'scale(1.4)';
+        flagEn.style.boxShadow = '0 2px 8px rgba(0,0,0,0.3)';
+        flagZh.style.transform = 'scale(1)';
+        flagZh.style.boxShadow = '0 1px 3px rgba(0,0,0,0.2)';
+      }
+    }
+
+
+    // 3. 绑定国旗点击事件
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('flag-zh').onclick = () => {
+        // 添加点击动画效果
+        const flag = document.getElementById('flag-zh');
+        flag.style.transform = 'scale(0.8)';
+        setTimeout(() => {
+          flag.style.transform = 'scale(1)';
+          setLang('zh');
+        }, 100);
+      };
+
+      document.getElementById('flag-en').onclick = () => {
+        // 添加点击动画效果
+        const flag = document.getElementById('flag-en');
+        flag.style.transform = 'scale(0.8)';
+        setTimeout(() => {
+          flag.style.transform = 'scale(1)';
+          setLang('en');
+        }, 100);
+      };
+
+      // 初始化选中状态
+      setLang(localStorage.getItem('lang') || 'en');
+    });
+  </script>
+
+  {% include header.html %}
+  <main>
+    {% include content.html content=content %}
+  </main>
+  {% include footer.html %}
+  </body>
+
+</html>

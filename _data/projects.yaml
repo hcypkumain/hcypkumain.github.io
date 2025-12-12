@@ -1,0 +1,182 @@
+- title: An integrative data-driven model simulating C. elegans brain, body and environment interactions
+  image: images/projects/c-elegan.webp
+  description: >
+    We are developing a data-driven model to simulate the interactions between the C. elegans brain, body, and environment. The model is based on the principles of neuroscience and computational neuroscience, and is used to study the behavior of the C. elegans.
+
+    The important innovation of BAAIWorm Tianbao lies in that it not only focuses on the modeling of the nervous system, but also takes the body and the environment into consideration, forming a closed - loop system. By simulating the behavior of nematodes, it explores how the neural structure affects intelligent behavior. This work not only provides a new platform for the study of biological intelligence, but also lays the foundation for the further development of the embodied intelligence theory and its application in the field of artificial intelligence.
+
+    Padraig Gleeson from University College London (member of the OpenWorm team and one of the reviewers of this paper) evaluated BAAIWorm as follows: "This is a remarkable achievement. It integrates the physiological and anatomical information of Caenorhabditis elegans into a computational model. It shows a lot of progress at different levels, and all the achievements are integrated with each other, forming a clear picture. I think this is an important advance in our modeling of Caenorhabditis elegans and understanding the 'brain - body - environment' interaction."
+    
+  collaborators: BAAI
+  collaborator_icons:
+    - name: BAAI
+      image: images/collaborators/BAAI.png
+  tags:
+    - computational neuroscience
+    - machine learning
+    - ai4science
+
+- title: SPIFT(SPIkingly Flying Things)
+  image: images/dataset_image/spift.png
+  description: >
+    用途：主要用作训练集，包含随机生成的高速运动场景。<br>
+    场景类别：100类，每类包含500帧脉冲流。<br>
+    光流标签：每隔10帧(Δt=10)和20帧(Δt=20)生成光流，共50,000帧标签。<br>
+    数据格式：脉冲流为二进制矩阵(H×W×N)，光流标签为二维运动矢量场(H×W×2)。
+  tags:
+    - optical flow
+    - simulate
+    - dataset
+
+
+- title: PHM(Photo-realistic High-speed Motion)
+  image: images/dataset_image/phm.png
+  description: >
+    用途：作为测试集，包含逼真的高速场景。<br>
+    场景类别：10类（如 Ball、Fan、Fly），共约 25,100 帧数据；光流标签覆盖所有像素（100% 密度）。<br>
+    数据格式：与 SPIFT 相同，但场景更复杂。
+  tags:
+    - optical flow
+    - simulate
+    - dataset
+
+
+- title: SSES (Spike-based Synthetic validation dataset for Extreme Scenarios in autonomous driving)
+  image: images/dataset_image/test_scenes.png
+  description: >
+    1
+  tags:
+    - optical flow
+    - simulate
+    - dataset
+
+- title: RSSF(Real Scenes with Spike and Flow)
+  image: images/dataset_image/rssf_1024_optimized.gif
+  description: |
+    解决如下困难与挑战：
+    <ul>
+      <li>合成数据与真实场景的差距：传统合成数据（如SCFlow使用的图形模型数据）存在纹理不真实、光照简化、运动模式单一等问题，导致模型在真实场景中泛化能力差。RSSF通过基于真实高分辨率数据集（Slow Flow）模拟脉冲流，显著缩小了这一差距。</li>
+      <li>脉冲流的时间连续性建模：脉冲相机输出的是连续二进制脉冲流，单个脉冲仅反映积分结果而非瞬时状态，传统方法难以提取时空关联特征。RSSF通过多时间步长光流真值（dt=20,40,60）支持连续运动建模，解决了时间信息利用不足的问题。</li>
+      <li>真实数据标注难题：脉冲相机的真实数据难以直接标注光流。RSSF通过模拟生成脉冲流与光流真值的严格对应关系，绕过了真实数据标注的瓶颈。</li>
+    </ul>
+  tags:
+    - optical flow
+    - simulate
+    - dataset
+
+- title: DENSE-spike and Outdoor-spike
+  image: images/dataset_image/DENSE-spike.png
+  description: >
+    用途：用于深度估计任务的真实场景数据集。<br>
+    场景类别：包含室内密集场景和室外场景。<br>
+    数据格式：深度图和对应的脉冲流。
+  tags:
+    - depth estimation
+    - real
+    - dataset
+
+- title: PKU-Spike-Stereo and Spike-KITTI
+  image: images/dataset_image/spikes_1000plus.gif
+  description: >
+    用途：用于立体视觉和自动驾驶场景的脉冲数据集。<br>
+    场景类别：包含立体场景和KITTI自动驾驶场景。<br>
+    数据格式：立体脉冲流和对应的标注信息。
+  tags:
+    - stereo vision
+    - autonomous driving
+    - dataset
+
+- title: PKU-Vidar-DVS
+  image: images/dataset_image/pku-vidar-dvs.png
+  description: >
+    用途：用于多模态感知和高速运动分析的数据集。<br>
+    场景类别：包含高速旋转、手部动作、笔运动、瓶子、户外坦克、户外驾驶等6类场景。<br>
+    数据格式：HDF5格式的DVS事件，.dat文件格式的Vidar脉冲，以及文本格式的边界框标签。
+  tags:
+    - multi-modal
+    - high-speed
+    - dataset
+
+- title: Spike-stero
+  image: images/dataset_image/frame_0009.png
+  description: >
+    用途：用于立体视觉任务的高速脉冲数据集。<br>
+    场景类别：包含室内和室外立体场景。<br>
+    数据格式：.dat二进制脉冲文件。
+  tags:
+    - stereo vision
+    - high-speed
+    - dataset
+
+
+
+# - title: Sentiment Analysis of Commodity Markets Using Transformer-based Language Models
+#   image: images/projects/lng-carrier.jpg
+#   description: >
+#     Working in close collaboration with our partners in the Faculty of Finance at Dauphine University we are developing a LLM-based apprach to assess commodity supply and demand market sentiment from news articles. The methodology developed represents a significant improvement upon current approaches with applicability across a diverse range of commodities. Our model seeks to identify subtle market signals and sentiment indicators that conventional methods often miss, providing traders and supply chain analysts with additional insights for decision-making.
+#   collaborators: Prof Eugenia Passari (Dauphine University)
+#   collaborator_icons:
+#     - name: Dauphine University
+#       image: images/collaborators/dauphine.png
+#   tags:
+#     - machine learning
+#     - trade
+#     - maritime
+
+# - title: Vision-Language-Action Models for AV Scenario Interpretation
+#   image: images/projects/vla-elm.jpg
+#   description: >
+#     TSL is working with Elm Europe, the UK-based subsidiary of Elm Company, a leading Saudi technology group, to develop a visual-language-action model framework for the next generation of autonomous vehicle safety systems. Using multi-modal foundation models, the model can interpret unique situations that AVs may have to encounter, and respond to potential safety hazards in real-time. The project builds on our earlier work on AV simulation and risk metrics, which will be complemented by the VLA framework for real-time decision-making.
+#   collaborators: Elm
+#   collaborator_icons:
+#     - name: Elm
+#       image: images/collaborators/elm.svg
+#   tags:
+#     - autonomy
+#     - safety
+#     - machine learning
+
+# - title: Scalable Autonomous Vehicle Fleet Management
+#   image: images/komatsu_project.jpg
+#   description: We are collaborating with Komatsu Ltd. to develop advanced algorithms for the optimal dispatching of autonomous trucks in open-pit mines. This project integrates reinforcement learning with combinatorial optimisation to enhance safety, efficiency, and sustainability in mining operations. Building on our team’s expertise in simulation-driven optimisation and autonomous vehicle safety, the research aims to establish decentralised control policies that can be deployed at scale across large autonomous truck fleets.
+#   collaborators: Komatsu Ltd.
+#   collaborator_icons:
+#     - name: Komatsu
+#       image: images/collaborators/komatsu.jpg
+#   tags:
+#     - optimization
+#     - mining
+#     - simulation
+
+# - title: DeepSafe - Narrowing the reality gap for AV Scenario Testing
+#   image: images/projects/deepsafe.jpg
+#   description: >
+#     TSL participates in the DeepSafe consortium, a CCAV-funded initiative ethat addresses critical barriers to autonomous vehicle deployment. Our primary contribution focuses on developing a unified risk assessment framework that quantifies the multidimensional nature of AV risk factors, building on our research in the Autonomy, Construction and Maritime sectors.
+#   collaborators: dRISK.ai, Claytex, rFpro
+#   collaborator_icons:
+#     - name: rFpro
+#       image: images/collaborators/rfpro.png
+#     - name: dRISK
+#       image: images/collaborators/drisk.png
+#     - name: Claytex
+#       image: images/collaborators/claytex.png
+#   tags:
+#     - autonomy
+#     - safety
+#     - policy
+#     - machine learning
+
+# - title: Scenario Gym - Lightweight Autonomous Driving Simulation
+#   image: images/projects/scenariogym.png
+#   description: >
+#     TSL collaborated with dRisk.ai and Hitachi to develop Scenario Gym, a lightweight autonomous driving simulation model that can execute unconfined, complex scenarios with diverse road users. Scenario Gym is built using Python and utilises an in-memory scenario representation compatible with OpenSCENARIO and OpenDRIVE standards. It is built with extensibility in mind and can support both predefined trajectories and intelligent self-controlling entities with high-level goals.
+#   collaborators: dRISK, Hitachi Europe
+#   collaborator_icons:
+#     - name: dRISK
+#       image: images/collaborators/drisk.png
+#     - name: Hitachi
+#       image: images/collaborators/hitachi.png
+#   tags:
+#     - autonomy
+#     - simulation
+#     - machine learning
