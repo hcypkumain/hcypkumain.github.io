@@ -354,7 +354,7 @@
 
   
   <p>
-    <img src="/images/dataset_image/spift.png" alt="PKU-Spike-Stereo and Spike-KITTI" style="max-width: 100%; height: auto;" loading="lazy">
+    <img src="/images/dataset_image/pku-spike-stereo-result.png" alt="PKU-Spike-Stereo and Spike-KITTI" style="width: 100%; height: auto;" loading="lazy">
   </p>
   
 
@@ -374,13 +374,15 @@
 
   
   <div class="project-body">
-    <p>用途：为脉冲相机提供立体深度估计数据集，涵盖真实场景和模拟环境。
-场景类别：PKU-Spike-Stereo包含室内和室外场景；Spike-KITTI基于KITTI数据集转换，保留道路场景特征。
-数据格式：</p>
+    <p>用途：为脉冲相机提供立体深度估计数据集，涵盖真实场景和模拟环境。</p>
+
+<p>场景类别：PKU-Spike-Stereo包含室内和室外场景；Spike-KITTI基于KITTI数据集转换，保留道路场景特征。</p>
+
+<p>数据格式：</p>
 <ul>
   <li>PKU-Spike-Stereo：双脉冲相机系统(400×250分辨率，20kHz采样率)，与ZED深度相机(1280×720@30fps)同步</li>
-  <li>Spike-KITTI：将经典KITTI数据集视频转换为脉冲流格式
-数据规模：</li>
+  <li>Spike-KITTI：将经典KITTI数据集视频转换为脉冲流格式</li>
+  <li>数据规模：</li>
   <li>PKU-Spike-Stereo：10,750对脉冲流数据，877组高质量同步深度标签</li>
   <li>Spike-KITTI：200对立体图像(160训练/40测试)</li>
 </ul>
@@ -403,23 +405,72 @@
   <li>高速运动优化：特别适合快速移动物体的深度估计</li>
 </ul>
 
-<p>数据集链接：待更新</p>
+<p>数据集链接：尚未公开，文章链接为 https://www.jdl.link/doc/2011/20221228_Learning_Stereo_Depth_Estimation_with_Bio-Inspired_Spike_Cameras.pdf</p>
 
 <figure class="figure">
-  <a class="figure-image" aria-label=" figure link">
-    <img src="/images/dataset_image/spift_result_1.gif" style="
-        width: 100%; max-height: unset; " alt=" figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a class="figure-image" aria-label="PKU-Spike-Stereo数据集结构">
+    <img src="/images/dataset_image/pku-spike-stereo.png" style="width: 100%; max-height: unset;" alt="PKU-Spike-Stereo数据集结构" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    PKU-Spike-Stereo数据集结构
+
+  </figcaption>
+  
+</figure>
+<figure class="figure">
+  <a class="figure-image" aria-label="Spike-KITTI数据集测试结果">
+    <img src="/images/dataset_image/kitti-result.png" style="width: 100%; max-height: unset;" alt="Spike-KITTI数据集测试结果" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    Spike-KITTI数据集测试结果
+
+  </figcaption>
+  
+</figure>
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/in1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
 <figure class="figure">
-  <a class="figure-image" aria-label="数据集示例">
-    <img src="/images/dataset_image/spift_result_2.gif" style="
-        width: 100%; max-height: unset; " alt=" 数据集示例" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/in2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+<figure class="figure">
+  <a class="figure-image" aria-label="室内抽样案例">
+    <img src="/images/dataset_image/in3.gif" style="width: 100%; max-height: unset;" alt="室内抽样案例" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
   <figcaption class="figure-caption">
-    数据集示例
+    室内抽样案例
+
+  </figcaption>
+  
+</figure>
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/out1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/out2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+<figure class="figure">
+  <a class="figure-image" aria-label="室外抽样案例">
+    <img src="/images/dataset_image/out3.gif" style="width: 100%; max-height: unset;" alt="室外抽样案例" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    室外抽样案例
 
   </figcaption>
   
@@ -434,6 +485,8 @@
   <div class="collaborator-icons">
     
   </div>
+  
+
   
 
 </div>

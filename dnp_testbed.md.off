@@ -583,10 +583,9 @@ Section, `size=full` w/ figure
 
 <figure class="figure">
   <a  href="/team"  class="figure-image"
-    aria-label=" figure link">
-    <img src="https://images.rawpixel.com/image_1000/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZsMjYyODgwODcyMjYtaW1hZ2VfMS1rb3k1Zzkxay5qcGc.jpg" style="
-        width: 100%; max-height: unset; "
-      alt=" figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+    aria-label="figure link">
+    <img src="https://images.rawpixel.com/image_1000/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZsMjYyODgwODcyMjYtaW1hZ2VfMS1rb3k1Zzkxay5qcGc.jpg" style="width: 100%; max-height: unset;"
+      alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 >
   </a>
   
@@ -607,10 +606,9 @@ Section, `size=full` w/ figure
 
 <figure class="figure">
   <a  class="figure-image"
-    aria-label=" figure link">
-    <img src="/images/icon.png" style="
-        width:  auto; max-height: unset; "
-      alt=" figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+    aria-label="figure link">
+    <img src="/images/icon.png" style="width: auto; max-height: unset;"
+      alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 >
   </a>
   
@@ -618,9 +616,8 @@ Section, `size=full` w/ figure
 <figure class="figure">
   <a  class="figure-image"
     aria-label="_Lorem_ **ipsum**.">
-    <img src="/images/icon.png" style="
-        width:  auto; max-height: unset; "
-      alt=" _Lorem_ **ipsum**." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+    <img src="/images/icon.png" style="width: auto; max-height: unset;"
+      alt="_Lorem_ **ipsum**." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 >
   </a>
   
@@ -633,9 +630,8 @@ Section, `size=full` w/ figure
 <figure class="figure">
   <a  class="figure-image"
     aria-label="_Lorem_ **ipsum**. `px` width">
-    <img src="/images/icon.png" style="
-        width: 400px; max-height: unset; "
-      alt=" _Lorem_ **ipsum**. `px` width" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+    <img src="/images/icon.png" style="width: 400px; max-height: unset;"
+      alt="_Lorem_ **ipsum**. `px` width" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 >
   </a>
   
@@ -648,9 +644,8 @@ Section, `size=full` w/ figure
 <figure class="figure">
   <a  href="/team"  class="figure-image"
     aria-label="_Lorem_ **ipsum**. `%` width">
-    <img src="/images/icon.png" style="
-        width: 50%; max-height: unset; "
-      alt=" _Lorem_ **ipsum**. `%` width" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+    <img src="/images/icon.png" style="width: 50%; max-height: unset;"
+      alt="_Lorem_ **ipsum**. `%` width" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 >
   </a>
   
@@ -663,9 +658,8 @@ Section, `size=full` w/ figure
 <figure class="figure">
   <a  href="/team"  class="figure-image"
     aria-label="_Lorem_ **ipsum**. `px` height">
-    <img src="/images/icon.png" style="
-        width:  auto; max-height: 200px; "
-      alt=" _Lorem_ **ipsum**. `px` height" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+    <img src="/images/icon.png" style="width: auto; max-height: 200px;"
+      alt="_Lorem_ **ipsum**. `px` height" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 >
   </a>
   
@@ -678,9 +672,8 @@ Section, `size=full` w/ figure
 <figure class="figure">
   <a  href="/team"  class="figure-image"
     aria-label="_Lorem_ **ipsum**. `px` width, svg">
-    <img src="/images/fallback.svg" style="
-        width: 400px; max-height: unset; "
-      alt=" _Lorem_ **ipsum**. `px` width, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+    <img src="/images/fallback.svg" style="width: 400px; max-height: unset;"
+      alt="_Lorem_ **ipsum**. `px` width, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 >
   </a>
   
@@ -693,9 +686,8 @@ Section, `size=full` w/ figure
 <figure class="figure">
   <a  href="/team"  class="figure-image"
     aria-label="_Lorem_ **ipsum**. `%` width, svg">
-    <img src="/images/fallback.svg" style="
-        width: 50%; max-height: unset; "
-      alt=" _Lorem_ **ipsum**. `%` width, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+    <img src="/images/fallback.svg" style="width: 50%; max-height: unset;"
+      alt="_Lorem_ **ipsum**. `%` width, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 >
   </a>
   
@@ -708,9 +700,8 @@ Section, `size=full` w/ figure
 <figure class="figure">
   <a  href="/team"  class="figure-image"
     aria-label="_Lorem_ **ipsum**. `px` height, svg">
-    <img src="/images/fallback.svg" style="
-        width:  auto; max-height: 200px; "
-      alt=" _Lorem_ **ipsum**. `px` height, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+    <img src="/images/fallback.svg" style="width: auto; max-height: 200px;"
+      alt="_Lorem_ **ipsum**. `px` height, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 >
   </a>
   
@@ -956,12 +947,12 @@ Section, `size=full` w/ figure
 <div class="card" data-style="">
   <a
     
-    aria-label="An integrative data-driven model simulating C. elegans brain, body and environment interactions"
+    aria-label="momVidarReal2021"
     class="card-image"
   >
     <img
-      src="/images/projects/c-elegan.webp"
-      alt="An integrative data-driven model simulating C. elegans brain, body and environment interactions"
+      src="/images/dataset_image/Bananas_1.gif"
+      alt="momVidarReal2021"
       loading="lazy"
       onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 
@@ -975,7 +966,7 @@ Section, `size=full` w/ figure
         
         class="card-title"
       >
-        An integrative data-driven model simulating C. elegans brain, body and environment interactions
+        momVidarReal2021
     </a>
     
 
@@ -983,9 +974,12 @@ Section, `size=full` w/ figure
 
     
       <p>
-        We are developing a data-driven model to simulate the interactions between the C. elegans brain, body, and environment. The model is based on the principles of neuroscience and computational neuroscience, and is used to study the behavior of the C. elegans.
-The important innovation of BAAIWorm Tianbao lies in that it not only focuses on the modeling of the nervous system, but also takes the body and the environment into consideration, forming a closed - loop system. By simulating the behavior of nematodes, it explores how the neural structure affects intelligent behavior. This work not only provides a new platform for the study of biological intelligence, but also lays the foundation for the further development of the embodied intelligence theory and its application in the field of artificial intelligence.
-Padraig Gleeson from University College London (member of the OpenWorm team and one of the reviewers of this paper) evaluated BAAIWorm as follows: “This is a remarkable achievement. It integrates the physiological and anatomical information of Caenorhabditis elegans into a computational model. It shows a lot of progress at different levels, and all the achievements are integrated with each other, forming a clear picture. I think this is an important advance in our modeling of Caenorhabditis elegans and understanding the ‘brain - body - environment’ interaction.”
+        <ul>
+  <li>用途：包含51段真实场景脉冲序列的高速视觉数据集，用于促进算法研究和开发。</li>
+  <li>场景类别：运动球类场景（13个序列）、复杂运动场景（8个序列）、特殊场景（8个序列）、生活场景（22个序列）。</li>
+  <li>数据特性：图像分辨率400×250，采样频率20,000 Hz，二进制spike事件流。</li>
+  <li>应用方向：图像重建、高速目标检测与追踪、运动分析（分割、光流估计、轨迹分析）、相机自运动研究等。</li>
+</ul>
 
       </p>
     
@@ -1003,27 +997,209 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
   >
     
       <a
-        href="https://hcypkumain.github.io/?search=&quot;tag: computational neuroscience&quot;"
+        href="https://hcypkumain.github.io/?search=&quot;tag: high-speed&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;computational neuroscience&quot;"
+        data-tooltip="Show items with the tag &quot;high-speed&quot;"
       >
-        computational neuroscience
+        high-speed
       </a>
     
       <a
-        href="https://hcypkumain.github.io/?search=&quot;tag: machine learning&quot;"
+        href="https://hcypkumain.github.io/?search=&quot;tag: real&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;machine learning&quot;"
+        data-tooltip="Show items with the tag &quot;real&quot;"
       >
-        machine learning
+        real
       </a>
     
       <a
-        href="https://hcypkumain.github.io/?search=&quot;tag: ai4science&quot;"
+        href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;ai4science&quot;"
+        data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        ai4science
+        dataset
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+  
+    
+
+     
+<div class="card" data-style="">
+  <a
+    
+    aria-label="motVidarReal2020"
+    class="card-image"
+  >
+    <img
+      src="/images/dataset_image/motvidar2020.gif"
+      alt="motVidarReal2020"
+      loading="lazy"
+      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+
+    >
+  </a>
+
+  <div class="card-text">
+    
+      <a
+        
+        
+        class="card-title"
+      >
+        motVidarReal2020
+    </a>
+    
+
+    
+
+    
+      <p>
+        <ul>
+  <li>用途：基于事件相机的多目标跟踪数据集，主要关注数字目标的跟踪。</li>
+  <li>数据特性：采样率高达20kHz（20000fps），时间分辨率比传统相机提升300-600倍。</li>
+  <li>技术优势：不受曝光时间限制，避免运动模糊，特别适合高速运动场景。</li>
+  <li>应用方向：高速运动目标跟踪、事件流重建算法、跨模态研究、自动驾驶等实际应用场景。</li>
+</ul>
+
+      </p>
+    
+
+    
+      
+
+
+  <div
+    class="tags"
+    
+    
+      data-link="https://hcypkumain.github.io/"
+    
+  >
+    
+      <a
+        href="https://hcypkumain.github.io/?search=&quot;tag: multi-object tracking&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;multi-object tracking&quot;"
+      >
+        multi-object tracking
+      </a>
+    
+      <a
+        href="https://hcypkumain.github.io/?search=&quot;tag: high-speed&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;high-speed&quot;"
+      >
+        high-speed
+      </a>
+    
+      <a
+        href="https://hcypkumain.github.io/?search=&quot;tag: real&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;real&quot;"
+      >
+        real
+      </a>
+    
+      <a
+        href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;dataset&quot;"
+      >
+        dataset
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+  
+    
+
+     
+<div class="card" data-style="">
+  <a
+    
+    aria-label="recVidarReal2019"
+    class="card-image"
+  >
+    <img
+      src="/images/dataset_image/railway.gif"
+      alt="recVidarReal2019"
+      loading="lazy"
+      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+
+    >
+  </a>
+
+  <div class="card-text">
+    
+      <a
+        
+        
+        class="card-title"
+      >
+        recVidarReal2019
+    </a>
+    
+
+    
+
+    
+      <p>
+        <ul>
+  <li>用途：专注于高速目标检测与跟踪的数据集，支持SNN算法开发与超高速视觉系统测试。</li>
+  <li>场景类别：ClassA（动态物体和旋转场景）和ClassB（大场景和高速运动）。</li>
+  <li>数据特性：图像分辨率400×250，采样频率20,000 Hz，二进制spike事件流。</li>
+  <li>应用方向：高速运动目标跟踪、大场景三维重建、旋转物体姿态估计、交通监控系统等。</li>
+</ul>
+
+      </p>
+    
+
+    
+      
+
+
+  <div
+    class="tags"
+    
+    
+      data-link="https://hcypkumain.github.io/"
+    
+  >
+    
+      <a
+        href="https://hcypkumain.github.io/?search=&quot;tag: high-speed&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;high-speed&quot;"
+      >
+        high-speed
+      </a>
+    
+      <a
+        href="https://hcypkumain.github.io/?search=&quot;tag: real&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;real&quot;"
+      >
+        real
+      </a>
+    
+      <a
+        href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;dataset&quot;"
+      >
+        dataset
       </a>
     
   </div>
@@ -1044,7 +1220,7 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
     class="card-image"
   >
     <img
-      src="/images/dataset_image/pku-vidar-dvs.png"
+      src="/images/dataset_image/pku-vidar-dvs-result.png"
       alt="PKU-Vidar-DVS"
       loading="lazy"
       onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
@@ -1067,7 +1243,17 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
 
     
       <p>
-        用途：用于多模态感知和高速运动分析的数据集。<br /> 场景类别：包含高速旋转、手部动作、笔运动、瓶子、户外坦克、户外驾驶等6类场景。<br /> 数据格式：HDF5格式的DVS事件，.dat文件格式的Vidar脉冲，以及文本格式的边界框标签。
+        <ul>
+  <li>用途：为脉冲相机提供多模态异步目标检测数据集，用于高速物体检测、低光环境感知和多模态融合算法验证。。</li>
+  <li>场景类别：包含高速运动、低光照条件、复杂背景等6种多样化场景，覆盖室内和室外环境。。</li>
+  <li>数据格式：
+    <ul>
+      <li>Vidar(类中央凹视觉): 脉冲流(Spikes)，400×250分辨率，20,000Hz采样率</li>
+      <li>DVS(类周边视觉): 异步事件流(Events)，每秒1200万事件，微秒级时间分辨率</li>
+    </ul>
+  </li>
+  <li>数据规模：490段序列(每段约5秒)，50Hz标注频率，总标注框数达215.5k，覆盖9类物体。</li>
+</ul>
 
       </p>
     
@@ -1126,7 +1312,7 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
     class="card-image"
   >
     <img
-      src="/images/dataset_image/spikes_1000plus.gif"
+      src="/images/dataset_image/pku-spike-stereo-result.png"
       alt="PKU-Spike-Stereo and Spike-KITTI"
       loading="lazy"
       onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
@@ -1149,7 +1335,27 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
 
     
       <p>
-        用途：用于立体视觉和自动驾驶场景的脉冲数据集。<br /> 场景类别：包含立体场景和KITTI自动驾驶场景。<br /> 数据格式：立体脉冲流和对应的标注信息。
+        <ul>
+  <li>用途：用于双目立体视觉和自动驾驶场景的脉冲数据集。</li>
+  <li>场景类别：
+    <ul>
+      <li>PKU-Spike-Stereo：利用一个ZED相机和两个脉冲相机去收集同步真实数据</li>
+      <li>Spike-KITTI：KITTI数据集的脉冲模拟版本</li>
+    </ul>
+  </li>
+  <li>数据格式：
+    <ul>
+      <li>PKU-Spike-Stereo：ZED相机为1280*720分辨率，30fps；每个脉冲相机为400*250分辨率，20kHz采样率。</li>
+      <li>Spike-KITTI：分辨率同KITTI数据集</li>
+    </ul>
+  </li>
+  <li>数据规模：
+    <ul>
+      <li>PKU-Spike-Stereo：10个类别（5个室内5个室外）</li>
+      <li>Spike-KITTI：160个训练序列，40个测试序列</li>
+    </ul>
+  </li>
+</ul>
 
       </p>
     
@@ -1208,7 +1414,7 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
     class="card-image"
   >
     <img
-      src="/images/dataset_image/DENSE-spike.png"
+      src="/images/dataset_image/Outdoor-spike.png"
       alt="DENSE-spike and Outdoor-spike"
       loading="lazy"
       onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
@@ -1231,7 +1437,27 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
 
     
       <p>
-        用途：用于深度估计任务的真实场景数据集。<br /> 场景类别：包含室内密集场景和室外场景。<br /> 数据格式：深度图和对应的脉冲流。
+        <ul>
+  <li>用途：为脉冲相机提供单目深度估计数据集，涵盖合成环境和真实世界场景。</li>
+  <li>场景类别：
+    <ul>
+      <li>DENSE-spike：基于CARLA模拟器生成的多样化场景，包括不同天气和光照条件</li>
+      <li>Outdoor-spike：真实道路场景，模拟自动驾驶视角</li>
+    </ul>
+  </li>
+  <li>数据格式：
+    <ul>
+      <li>DENSE-spike：346×260×128(128个时间戳)的脉冲流数据</li>
+      <li>Outdoor-spike：400×250@40kHz的真实脉冲流数据</li>
+    </ul>
+  </li>
+  <li>数据规模：
+    <ul>
+      <li>DENSE-spike：8个序列(5训练/2验证/1测试)</li>
+      <li>Outdoor-spike：33个真实道路场景序列</li>
+    </ul>
+  </li>
+</ul>
 
       </p>
     
@@ -1377,7 +1603,7 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
     class="card-image"
   >
     <img
-      src="/images/dataset_image/test_scenes.png"
+      src="/images/dataset_image/sses.png"
       alt="SSES (Spike-based Synthetic validation dataset for Extreme Scenarios in autonomous driving)"
       loading="lazy"
       onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
@@ -1400,7 +1626,12 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
 
     
       <p>
-        1
+        <ul>
+  <li>用途：专注于自动驾驶极端场景的脉冲相机合成数据集，支持无监督光流估计模型的训练与评估。</li>
+  <li>场景类别:10个模拟交通事故的极端场景，涵盖各种街道环境、天气条件（雨天、雾天）和运动目标（车辆、行人/骑行者）。</li>
+  <li>光流标签:基于CARLA模拟器构建，每个数据序列持续0.5-1.5秒。</li>
+  <li>数据格式:脉冲流以40kHz生成，支持微秒级光流分析；包含脉冲流、RGB帧、光流真值、实例分割和深度信息的多模态数据。</li>
+</ul>
 
       </p>
     
@@ -1482,7 +1713,11 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
 
     
       <p>
-        用途：作为测试集，包含逼真的高速场景。<br /> 场景类别：10类（如 Ball、Fan、Fly），共约 25,100 帧数据；光流标签覆盖所有像素（100% 密度）。<br /> 数据格式：与 SPIFT 相同，但场景更复杂。
+        <ul>
+  <li>用途：作为测试集，包含逼真的高速场景。</li>
+  <li>场景类别：10类（如 Ball、Fan、Fly），共约 25,100 帧数据；光流标签覆盖所有像素（100% 密度）。</li>
+  <li>数据格式：与 SPIFT 相同，但场景更复杂。</li>
+</ul>
 
       </p>
     
@@ -1537,12 +1772,12 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
 <div class="card" data-style="">
   <a
     
-    aria-label="SPIFT(SPIkingly Flying Things)"
+    aria-label="SPIFT(Spikingly Flying Things)"
     class="card-image"
   >
     <img
       src="/images/dataset_image/spift.png"
-      alt="SPIFT(SPIkingly Flying Things)"
+      alt="SPIFT(Spikingly Flying Things)"
       loading="lazy"
       onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 
@@ -1556,7 +1791,7 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
         
         class="card-title"
       >
-        SPIFT(SPIkingly Flying Things)
+        SPIFT(Spikingly Flying Things)
     </a>
     
 
@@ -1564,7 +1799,12 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
 
     
       <p>
-        用途：主要用作训练集，包含随机生成的高速运动场景。<br /> 场景类别：100类，每类包含500帧脉冲流。<br /> 光流标签：每隔10帧(Δt=10)和20帧(Δt=20)生成光流，共50,000帧标签。<br /> 数据格式：脉冲流为二进制矩阵(H×W×N)，光流标签为二维运动矢量场(H×W×2)。
+        <ul>
+  <li>用途：主要用作训练集，包含随机生成的高速运动场景。</li>
+  <li>场景类别：100类，每类包含500帧脉冲流。</li>
+  <li>光流标签：每隔10帧(Δt=10)和20帧(Δt=20)生成光流，共50,000帧标签。</li>
+  <li>数据格式：脉冲流为二进制矩阵(H×W×N)，光流标签为二维运动矢量场(H×W×2)。</li>
+</ul>
 
       </p>
     
@@ -1595,88 +1835,6 @@ Padraig Gleeson from University College London (member of the OpenWorm team and 
         data-tooltip="Show items with the tag &quot;simulate&quot;"
       >
         simulate
-      </a>
-    
-      <a
-        href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
-        class="tag"
-        data-tooltip="Show items with the tag &quot;dataset&quot;"
-      >
-        dataset
-      </a>
-    
-  </div>
-
-
-    
-  </div>
-</div>
-
-  
-    
-
-     
-<div class="card" data-style="">
-  <a
-    
-    aria-label="Spike-stero"
-    class="card-image"
-  >
-    <img
-      src="/images/dataset_image/frame_0009.png"
-      alt="Spike-stero"
-      loading="lazy"
-      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
-
-    >
-  </a>
-
-  <div class="card-text">
-    
-      <a
-        
-        
-        class="card-title"
-      >
-        Spike-stero
-    </a>
-    
-
-    
-
-    
-      <p>
-        用途：用于立体视觉任务的高速脉冲数据集。<br /> 场景类别：包含室内和室外立体场景。<br /> 数据格式：.dat二进制脉冲文件。
-
-      </p>
-    
-
-    
-      
-
-
-  <div
-    class="tags"
-    
-    
-      data-link="https://hcypkumain.github.io/"
-    
-  >
-    
-      <a
-        href="https://hcypkumain.github.io/?search=&quot;tag: stereo vision&quot;"
-        class="tag"
-        data-tooltip="Show items with the tag &quot;stereo vision&quot;"
-      >
-        stereo vision
-      </a>
-    
-      <a
-        href="https://hcypkumain.github.io/?search=&quot;tag: high-speed&quot;"
-        class="tag"
-        data-tooltip="Show items with the tag &quot;high-speed&quot;"
-      >
-        high-speed
       </a>
     
       <a
@@ -2352,8 +2510,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
 <figure class="figure">
   <a class="figure-image" aria-label="Caption">
-    <img src="/images/icon.png" style="
-        width: 200px; max-height: unset; " alt=" Caption" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+    <img src="/images/icon.png" style="width: 200px; max-height: unset;" alt="Caption" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   
   <figcaption class="figure-caption">
@@ -2440,44 +2597,38 @@ With figure components
 <div class="grid" data-style="square">
   
 <figure class="figure">
-  <a class="figure-image" aria-label=" figure link">
-    <img src="https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pcbi.1007128.g001&amp;rev=2" style="
-        width:  auto; max-height: unset; " alt=" figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  <a class="figure-image" aria-label="figure link">
+    <img src="https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pcbi.1007128.g001&amp;rev=2" style="width: auto; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   
 </figure>
 <figure class="figure">
-  <a class="figure-image" aria-label=" figure link">
-    <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg" style="
-        width:  auto; max-height: unset; " alt=" figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  <a class="figure-image" aria-label="figure link">
+    <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg" style="width: auto; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   
 </figure>
 <figure class="figure">
-  <a class="figure-image" aria-label=" figure link">
-    <img src="https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp" style="
-        width:  auto; max-height: unset; " alt=" figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  <a class="figure-image" aria-label="figure link">
+    <img src="https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp" style="width: auto; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   
 </figure>
 <figure class="figure">
-  <a class="figure-image" aria-label=" figure link">
-    <img src="/images/icon.png" style="
-        width:  auto; max-height: unset; " alt=" figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/icon.png" style="width: auto; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   
 </figure>
 <figure class="figure">
-  <a class="figure-image" aria-label=" figure link">
-    <img src="/images/icon.png" style="
-        width:  auto; max-height: unset; " alt=" figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/icon.png" style="width: auto; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   
 </figure>
 <figure class="figure">
-  <a class="figure-image" aria-label=" figure link">
-    <img src="/images/icon.png" style="
-        width:  auto; max-height: unset; " alt=" figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/icon.png" style="width: auto; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   
 </figure>
@@ -2490,13 +2641,13 @@ With figure components
 <!-- 
 <div class="grid" data-style="">
   
-<h3>2024</h3>
+<h3>2025</h3>
 
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:eJXPG6dFmWUC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingresformer: Bridging resnet and vision transformer in spiking neural networks">
-        <img src="" alt="Spikingresformer: Bridging resnet and vision transformer in spiking neural networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://doi.org/10.1109/TNNLS.2025.3478241" target="_blank" rel="noopener" class="citation-image" aria-label="Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs">
+        <img src="" alt="Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -2505,8 +2656,346 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:eJXPG6dFmWUC" target="_blank" rel="noopener" class="citation-title">
-          Spikingresformer: Bridging resnet and vision transformer in spiking neural networks
+        <a href="https://doi.org/10.1109/TNNLS.2025.3478241" target="_blank" rel="noopener" class="citation-title">
+          Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs
+        </a>
+        
+        
+          &nbsp;(2025)
+        
+
+        
+        
+        
+          &nbsp;·&nbsp;
+          <span class="citation-publisher">
+            IEEE Transactions on Neural Networks and Learning Systems, 2025
+          </span>
+        
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://arxiv.org/abs/2505.15840" target="_blank" rel="noopener" class="citation-image" aria-label="TDFormer: A Top-Down Attention-Controlled Spiking Transformer">
+        <img src="" alt="TDFormer: A Top-Down Attention-Controlled Spiking Transformer" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://arxiv.org/abs/2505.15840" target="_blank" rel="noopener" class="citation-title">
+          TDFormer: A Top-Down Attention-Controlled Spiking Transformer
+        </a>
+        
+        
+          &nbsp;(2025)
+        
+
+        
+        
+        
+          &nbsp;·&nbsp;
+          <span class="citation-publisher">
+            arXiv preprint arXiv:2505.15840, 2025
+          </span>
+        
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/10.24963/ijcai.2025/181" target="_blank" rel="noopener" class="citation-image" aria-label="SOTA: Spike-Navigated Optimal Transport Saliency Region Detection in Composite-bias Videos">
+        <img src="" alt="SOTA: Spike-Navigated Optimal Transport Saliency Region Detection in Composite-bias Videos" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://doi.org/10.24963/ijcai.2025/181" target="_blank" rel="noopener" class="citation-title">
+          SOTA: Spike-Navigated Optimal Transport Saliency Region Detection in Composite-bias Videos
+        </a>
+        
+        
+          &nbsp;(2025)
+        
+
+        
+        
+        
+          &nbsp;·&nbsp;
+          <span class="citation-publisher">
+            Proceedings of the International Joint Conference on Artificial Intelligence, 2025
+          </span>
+        
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://arxiv.org/abs/2503.00301" target="_blank" rel="noopener" class="citation-image" aria-label="Differential coding for training-free ANN-to-SNN conversion">
+        <img src="" alt="Differential coding for training-free ANN-to-SNN conversion" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://arxiv.org/abs/2503.00301" target="_blank" rel="noopener" class="citation-title">
+          Differential coding for training-free ANN-to-SNN conversion
+        </a>
+        
+        
+          &nbsp;(2025)
+        
+
+        
+        
+        
+          &nbsp;·&nbsp;
+          <span class="citation-publisher">
+            arXiv preprint arXiv:2503.00301, 2025
+          </span>
+        
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/10.1016/j.neunet.2025.107863" target="_blank" rel="noopener" class="citation-image" aria-label="Decoding natural visual scenes via learnable representations of neural spiking sequences">
+        <img src="" alt="Decoding natural visual scenes via learnable representations of neural spiking sequences" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://doi.org/10.1016/j.neunet.2025.107863" target="_blank" rel="noopener" class="citation-title">
+          Decoding natural visual scenes via learnable representations of neural spiking sequences
+        </a>
+        
+        
+          &nbsp;(2025)
+        
+
+        
+        
+        
+          &nbsp;·&nbsp;
+          <span class="citation-publisher">
+            Neural Networks, 2025
+          </span>
+        
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://arxiv.org/abs/2508.00387" target="_blank" rel="noopener" class="citation-image" aria-label="STF: Shallow-Level Temporal Feedback to Enhance Spiking Transformers">
+        <img src="" alt="STF: Shallow-Level Temporal Feedback to Enhance Spiking Transformers" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://arxiv.org/abs/2508.00387" target="_blank" rel="noopener" class="citation-title">
+          STF: Shallow-Level Temporal Feedback to Enhance Spiking Transformers
+        </a>
+        
+        
+          &nbsp;(2025)
+        
+
+        
+        
+        
+          &nbsp;·&nbsp;
+          <span class="citation-publisher">
+            arXiv preprint arXiv:2508.00387, 2025
+          </span>
+        
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://arxiv.org/abs/2505.24161" target="_blank" rel="noopener" class="citation-image" aria-label="Proxy Target: Bridging the Gap Between Discrete Spiking Neural Networks and Continuous Control">
+        <img src="" alt="Proxy Target: Bridging the Gap Between Discrete Spiking Neural Networks and Continuous Control" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://arxiv.org/abs/2505.24161" target="_blank" rel="noopener" class="citation-title">
+          Proxy Target: Bridging the Gap Between Discrete Spiking Neural Networks and Continuous Control
+        </a>
+        
+        
+          &nbsp;(2025)
+        
+
+        
+        
+        
+          &nbsp;·&nbsp;
+          <span class="citation-publisher">
+            arXiv preprint arXiv:2505.24161, 2025
+          </span>
+        
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://arxiv.org/abs/2512.05472" target="_blank" rel="noopener" class="citation-image" aria-label="Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation">
+        <img src="" alt="Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://arxiv.org/abs/2512.05472" target="_blank" rel="noopener" class="citation-title">
+          Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation
+        </a>
+        
+        
+          &nbsp;(2025)
+        
+
+        
+        
+        
+          &nbsp;·&nbsp;
+          <span class="citation-publisher">
+            arXiv preprint arXiv:2512.05472, 2025
+          </span>
+        
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3>2024</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:tkaPQYYpVKoC" target="_blank" rel="noopener" class="citation-image" aria-label="Decoding dynamic visual scenes across the brain hierarchy">
+        <img src="" alt="Decoding dynamic visual scenes across the brain hierarchy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:tkaPQYYpVKoC" target="_blank" rel="noopener" class="citation-title">
+          Decoding dynamic visual scenes across the brain hierarchy
         </a>
         
         
@@ -2515,8 +3004,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" tabindex="0">
-            X Shi, Z Hao, Z Yu
+          <span class="citation-authors" data-tooltip="Y Chen, P Beech, Z Yin, S Jia, J Zhang, Z Yu, JK Liu " tabindex="0">
+            Y Chen, P Beech, …, Z Yu, JK Liu
 
           </span>
         
@@ -2524,7 +3013,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2024
+            PLOS Computational Biology 20 (8), e1012297, 2024
           </span>
         
       </div>
@@ -3647,8 +4136,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:tkaPQYYpVKoC" target="_blank" rel="noopener" class="citation-image" aria-label="Decoding dynamic visual scenes across the brain hierarchy">
-        <img src="" alt="Decoding dynamic visual scenes across the brain hierarchy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:eJXPG6dFmWUC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingresformer: Bridging resnet and vision transformer in spiking neural networks">
+        <img src="" alt="Spikingresformer: Bridging resnet and vision transformer in spiking neural networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -3657,8 +4146,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:tkaPQYYpVKoC" target="_blank" rel="noopener" class="citation-title">
-          Decoding dynamic visual scenes across the brain hierarchy
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:eJXPG6dFmWUC" target="_blank" rel="noopener" class="citation-title">
+          Spikingresformer: Bridging resnet and vision transformer in spiking neural networks
         </a>
         
         
@@ -3667,8 +4156,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="Y Chen, P Beech, Z Yin, S Jia, J Zhang, Z Yu, JK Liu " tabindex="0">
-            Y Chen, P Beech, …, Z Yu, JK Liu
+          <span class="citation-authors" tabindex="0">
+            X Shi, Z Hao, Z Yu
 
           </span>
         
@@ -3676,7 +4165,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            PLOS Computational Biology 20 (8), e1012297, 2024
+            Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2024
           </span>
         
       </div>
@@ -3697,8 +4186,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:dshw04ExmUIC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence">
-        <img src="" alt="Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:f2IySw72cVMC" target="_blank" rel="noopener" class="citation-image" aria-label="Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting">
+        <img src="" alt="Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -3707,8 +4196,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:dshw04ExmUIC" target="_blank" rel="noopener" class="citation-title">
-          Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:f2IySw72cVMC" target="_blank" rel="noopener" class="citation-title">
+          Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting
         </a>
         
         
@@ -3717,8 +4206,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="W Fang, Y Chen, J Ding, Z Yu, T Masquelier, D Chen, L Huang, H Zhou, ... " tabindex="0">
-            W Fang, Y Chen, …, H Zhou, …
+          <span class="citation-authors" data-tooltip="S Yang, X Cui, Y Zhu, J Tang, S Li, Z Yu, B Shi " tabindex="0">
+            S Yang, X Cui, …, Z Yu, B Shi
 
           </span>
         
@@ -3726,7 +4215,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Science Advances 9 (40), eadi1480, 2023
+            Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2023
           </span>
         
       </div>
@@ -4561,8 +5050,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:f2IySw72cVMC" target="_blank" rel="noopener" class="citation-image" aria-label="Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting">
-        <img src="" alt="Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:dshw04ExmUIC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence">
+        <img src="" alt="Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -4571,8 +5060,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:f2IySw72cVMC" target="_blank" rel="noopener" class="citation-title">
-          Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:dshw04ExmUIC" target="_blank" rel="noopener" class="citation-title">
+          Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence
         </a>
         
         
@@ -4581,8 +5070,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="S Yang, X Cui, Y Zhu, J Tang, S Li, Z Yu, B Shi " tabindex="0">
-            S Yang, X Cui, …, Z Yu, B Shi
+          <span class="citation-authors" data-tooltip="W Fang, Y Chen, J Ding, Z Yu, T Masquelier, D Chen, L Huang, H Zhou, ... " tabindex="0">
+            W Fang, Y Chen, …, H Zhou, …
 
           </span>
         
@@ -4590,7 +5079,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2023
+            Science Advances 9 (40), eadi1480, 2023
           </span>
         
       </div>
@@ -4611,8 +5100,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:2P1L_qKh6hAC" target="_blank" rel="noopener" class="citation-image" aria-label="Temporal Effective Batch Normalization in Spiking Neural Networks">
-        <img src="" alt="Temporal Effective Batch Normalization in Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:blknAaTinKkC" target="_blank" rel="noopener" class="citation-image" aria-label="Representing the dynamics of high-dimensional data with non-redundant wavelets">
+        <img src="" alt="Representing the dynamics of high-dimensional data with non-redundant wavelets" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -4621,8 +5110,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:2P1L_qKh6hAC" target="_blank" rel="noopener" class="citation-title">
-          Temporal Effective Batch Normalization in Spiking Neural Networks
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:blknAaTinKkC" target="_blank" rel="noopener" class="citation-title">
+          Representing the dynamics of high-dimensional data with non-redundant wavelets
         </a>
         
         
@@ -4631,8 +5120,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="C Duan, J Ding, S Chen, Z Yu, T Huang " tabindex="0">
-            C Duan, J Ding, …, Z Yu, T Huang
+          <span class="citation-authors" data-tooltip="S Jia, X Li, T Huang, JK Liu, Z Yu " tabindex="0">
+            S Jia, X Li, …, JK Liu, Z Yu
 
           </span>
         
@@ -4640,7 +5129,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Advances in Neural Information Processing Systems, 2022
+            Patterns 3 (3), 2022
           </span>
         
       </div>
@@ -5326,8 +5815,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:blknAaTinKkC" target="_blank" rel="noopener" class="citation-image" aria-label="Representing the dynamics of high-dimensional data with non-redundant wavelets">
-        <img src="" alt="Representing the dynamics of high-dimensional data with non-redundant wavelets" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:2P1L_qKh6hAC" target="_blank" rel="noopener" class="citation-image" aria-label="Temporal Effective Batch Normalization in Spiking Neural Networks">
+        <img src="" alt="Temporal Effective Batch Normalization in Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5336,8 +5825,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:blknAaTinKkC" target="_blank" rel="noopener" class="citation-title">
-          Representing the dynamics of high-dimensional data with non-redundant wavelets
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:2P1L_qKh6hAC" target="_blank" rel="noopener" class="citation-title">
+          Temporal Effective Batch Normalization in Spiking Neural Networks
         </a>
         
         
@@ -5346,8 +5835,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="S Jia, X Li, T Huang, JK Liu, Z Yu " tabindex="0">
-            S Jia, X Li, …, JK Liu, Z Yu
+          <span class="citation-authors" data-tooltip="C Duan, J Ding, S Chen, Z Yu, T Huang " tabindex="0">
+            C Duan, J Ding, …, Z Yu, T Huang
 
           </span>
         
@@ -5355,7 +5844,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Patterns 3 (3), 2022
+            Advances in Neural Information Processing Systems, 2022
           </span>
         
       </div>
@@ -5376,8 +5865,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:qUcmZB5y_30C" target="_blank" rel="noopener" class="citation-image" aria-label="Incorporating learnable membrane time constant to enhance learning of spiking neural networks">
-        <img src="" alt="Incorporating learnable membrane time constant to enhance learning of spiking neural networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:hqOjcs7Dif8C" target="_blank" rel="noopener" class="citation-image" aria-label="Neural system identification with spike-triggered non-negative matrix factorization">
+        <img src="" alt="Neural system identification with spike-triggered non-negative matrix factorization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5386,8 +5875,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:qUcmZB5y_30C" target="_blank" rel="noopener" class="citation-title">
-          Incorporating learnable membrane time constant to enhance learning of spiking neural networks
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:hqOjcs7Dif8C" target="_blank" rel="noopener" class="citation-title">
+          Neural system identification with spike-triggered non-negative matrix factorization
         </a>
         
         
@@ -5396,8 +5885,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="W Fang, Z Yu, Y Chen, T Masquelier, T Huang, Y Tian " tabindex="0">
-            W Fang, Z Yu, …, T Huang, Y Tian
+          <span class="citation-authors" data-tooltip="S Jia, Z Yu, A Onken, Y Tian, T Huang, JK Liu " tabindex="0">
+            S Jia, Z Yu, …, T Huang, JK Liu
 
           </span>
         
@@ -5405,7 +5894,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Proceedings of the IEEE/CVF international conference on computer vision …, 2021
+            IEEE Transactions on Cybernetics 52 (6), 4772-4783, 2021
           </span>
         
       </div>
@@ -5904,8 +6393,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:hqOjcs7Dif8C" target="_blank" rel="noopener" class="citation-image" aria-label="Neural system identification with spike-triggered non-negative matrix factorization">
-        <img src="" alt="Neural system identification with spike-triggered non-negative matrix factorization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:qUcmZB5y_30C" target="_blank" rel="noopener" class="citation-image" aria-label="Incorporating learnable membrane time constant to enhance learning of spiking neural networks">
+        <img src="" alt="Incorporating learnable membrane time constant to enhance learning of spiking neural networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5914,8 +6403,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:hqOjcs7Dif8C" target="_blank" rel="noopener" class="citation-title">
-          Neural system identification with spike-triggered non-negative matrix factorization
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:qUcmZB5y_30C" target="_blank" rel="noopener" class="citation-title">
+          Incorporating learnable membrane time constant to enhance learning of spiking neural networks
         </a>
         
         
@@ -5924,8 +6413,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="S Jia, Z Yu, A Onken, Y Tian, T Huang, JK Liu " tabindex="0">
-            S Jia, Z Yu, …, T Huang, JK Liu
+          <span class="citation-authors" data-tooltip="W Fang, Z Yu, Y Chen, T Masquelier, T Huang, Y Tian " tabindex="0">
+            W Fang, Z Yu, …, T Huang, Y Tian
 
           </span>
         
@@ -5933,7 +6422,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            IEEE Transactions on Cybernetics 52 (6), 4772-4783, 2021
+            Proceedings of the IEEE/CVF international conference on computer vision …, 2021
           </span>
         
       </div>
@@ -5954,8 +6443,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:b0M2c_1WBrUC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingjelly">
-        <img src="" alt="Spikingjelly" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:IWHjjKOFINEC" target="_blank" rel="noopener" class="citation-image" aria-label="Network structure reconstruction with symmetry constraint">
+        <img src="" alt="Network structure reconstruction with symmetry constraint" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5964,8 +6453,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:b0M2c_1WBrUC" target="_blank" rel="noopener" class="citation-title">
-          Spikingjelly
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:IWHjjKOFINEC" target="_blank" rel="noopener" class="citation-title">
+          Network structure reconstruction with symmetry constraint
         </a>
         
         
@@ -5974,8 +6463,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="W Fang, Y Chen, J Ding, D Chen, Z Yu, H Zhou, Y Tian " tabindex="0">
-            W Fang, Y Chen, …, H Zhou, Y Tian
+          <span class="citation-authors" data-tooltip="Z Hang, P Dai, S Jia, Z Yu " tabindex="0">
+            Z Hang, P Dai, S Jia, Z Yu
 
           </span>
         
@@ -5983,7 +6472,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Multimedia Learn. Group, Inst. Digit. Media (NELVT), 2020
+            Chaos, Solitons &amp; Fractals 139, 110287, 2020
           </span>
         
       </div>
@@ -6386,8 +6875,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:IWHjjKOFINEC" target="_blank" rel="noopener" class="citation-image" aria-label="Network structure reconstruction with symmetry constraint">
-        <img src="" alt="Network structure reconstruction with symmetry constraint" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:b0M2c_1WBrUC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingjelly">
+        <img src="" alt="Spikingjelly" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -6396,8 +6885,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:IWHjjKOFINEC" target="_blank" rel="noopener" class="citation-title">
-          Network structure reconstruction with symmetry constraint
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:b0M2c_1WBrUC" target="_blank" rel="noopener" class="citation-title">
+          Spikingjelly
         </a>
         
         
@@ -6406,8 +6895,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="Z Hang, P Dai, S Jia, Z Yu " tabindex="0">
-            Z Hang, P Dai, S Jia, Z Yu
+          <span class="citation-authors" data-tooltip="W Fang, Y Chen, J Ding, D Chen, Z Yu, H Zhou, Y Tian " tabindex="0">
+            W Fang, Y Chen, …, H Zhou, Y Tian
 
           </span>
         
@@ -6415,7 +6904,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Chaos, Solitons &amp; Fractals 139, 110287, 2020
+            Multimedia Learn. Group, Inst. Digit. Media (NELVT), 2020
           </span>
         
       </div>
@@ -6686,8 +7175,7 @@ With figure components
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="Fig. 1a">
-    <img src="/images/icon.png" style="
-        width:  auto; max-height: unset; " alt=" Fig. 1a" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+    <img src="/images/icon.png" style="width: auto; max-height: unset;" alt="Fig. 1a" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   
   <figcaption class="figure-caption">
@@ -6703,8 +7191,7 @@ With figure components
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="Fig. 1b">
-    <img src="/images/icon.png" style="
-        width:  auto; max-height: unset; " alt=" Fig. 1b" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+    <img src="/images/icon.png" style="width: auto; max-height: unset;" alt="Fig. 1b" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   
   <figcaption class="figure-caption">
@@ -6720,8 +7207,7 @@ With figure components
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="Fig. 1c">
-    <img src="/images/icon.png" style="
-        width:  auto; max-height: unset; " alt=" Fig. 1c" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+    <img src="/images/icon.png" style="width: auto; max-height: unset;" alt="Fig. 1c" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   
   <figcaption class="figure-caption">

@@ -354,7 +354,7 @@
 
   
   <p>
-    <img src="/images/dataset_image/pku-vidar-dvs.png" alt="PKU-Vidar-DVS" style="max-width: 100%; height: auto;" loading="lazy">
+    <img src="/images/dataset_image/pku-vidar-dvs-result.png" alt="PKU-Vidar-DVS" style="width: 100%; height: auto;" loading="lazy">
   </p>
   
 
@@ -378,19 +378,24 @@
 
   
   <div class="project-body">
-    <p>用途：为脉冲相机提供多模态异步目标检测数据集，用于高速物体检测、低光环境感知和多模态融合算法验证。
-场景类别：包含高速运动、低光照条件、复杂背景等多样化场景，覆盖室内和室外环境。
-数据格式：</p>
+    <p>用途：为脉冲相机提供多模态异步目标检测数据集，用于高速物体检测、低光环境感知和多模态融合算法验证。</p>
+
+<p>场景类别：包含高速运动、低光照条件、复杂背景等多样化场景，覆盖室内和室外环境。</p>
+
+<p>数据格式：</p>
 <ul>
   <li>Vidar(类中央凹视觉): 尖峰流(Spikes)，400×250分辨率，20,000Hz采样率</li>
-  <li>DVS(类周边视觉): 异步事件流(Events)，每秒1200万事件，微秒级时间分辨率
-数据规模：490段序列(每段约5秒)，50Hz标注频率，总标注框数达215.5k，覆盖9类物体。</li>
+  <li>DVS(类周边视觉): 异步事件流(Events)，每秒1200万事件，微秒级时间分辨率</li>
 </ul>
 
+<p>数据规模：490段序列(每段约5秒)，50Hz标注频率，总标注框数达215.5k，覆盖9类物体。</p>
+
 <h3 id="数据集核心特点">数据集核心特点</h3>
-<p>多模态异步数据：结合Vidar的静态纹理信息和DVS的动态响应特性，提供互补的视觉信息。
-高时空分辨率：Vidar提供高频纹理信息，DVS提供微秒级时间分辨率，适应高速运动物体检测。
-挑战性场景覆盖：包含高速运动(如1500r/min旋转字符)、低光照环境(隧道、夜间)和动态范围冲突场景。</p>
+<p>多模态异步数据：结合Vidar的静态纹理信息和DVS的动态响应特性，提供互补的视觉信息。</p>
+
+<p>高时空分辨率：Vidar提供高频纹理信息，DVS提供微秒级时间分辨率，适应高速运动物体检测。</p>
+
+<p>挑战性场景覆盖：包含高速运动(如1500r/min旋转字符)、低光照环境(隧道、夜间)和动态范围冲突场景。</p>
 
 <h3 id="数据格式和目录结构">数据格式和目录结构</h3>
 <ul>
@@ -407,23 +412,26 @@
   <li>多模态融合算法开发：探索不同模态数据的有效融合方式</li>
 </ul>
 
-<p>数据集链接：待更新</p>
+<p>数据集链接：https://git.openi.org.cn/lijianing/PKU-Vidar-DVS/datasets</p>
 
 <figure class="figure">
-  <a class="figure-image" aria-label=" figure link">
-    <img src="/images/dataset_image/spift_result_1.gif" style="
-        width: 100%; max-height: unset; " alt=" figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-</figure>
-<figure class="figure">
-  <a class="figure-image" aria-label="数据集示例">
-    <img src="/images/dataset_image/spift_result_2.gif" style="
-        width: 100%; max-height: unset; " alt=" 数据集示例" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a class="figure-image" aria-label="不同数据集参数对比">
+    <img src="/images/dataset_image/pku-vidar-dvs-compare.png" style="width: 100%; max-height: unset;" alt="不同数据集参数对比" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
   <figcaption class="figure-caption">
-    数据集示例
+    不同数据集参数对比
+
+  </figcaption>
+  
+</figure>
+<figure class="figure">
+  <a class="figure-image" aria-label="数据集可视化抽样">
+    <img src="/images/dataset_image/pku-vidar-dvs-see-result.png" style="width: 100%; max-height: unset;" alt="数据集可视化抽样" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    数据集可视化抽样
 
   </figcaption>
   
@@ -438,6 +446,8 @@
   <div class="collaborator-icons">
     
   </div>
+  
+
   
 
 </div>
