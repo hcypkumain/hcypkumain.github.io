@@ -947,12 +947,12 @@ Section, `size=full` w/ figure
 <div class="card" data-style="">
   <a
     
-    aria-label="momVidarReal2021"
+    aria-label="SPIFT(Spikingly Flying Things)"
     class="card-image"
   >
     <img
-      src="/images/dataset_image/Bananas_1.gif"
-      alt="momVidarReal2021"
+      src="/images/dataset_image/spift.png"
+      alt="SPIFT(Spikingly Flying Things)"
       loading="lazy"
       onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 
@@ -966,7 +966,7 @@ Section, `size=full` w/ figure
         
         class="card-title"
       >
-        momVidarReal2021
+        SPIFT(Spikingly Flying Things)
     </a>
     
 
@@ -975,10 +975,10 @@ Section, `size=full` w/ figure
     
       <p>
         <ul>
-  <li>用途：包含51段真实场景脉冲序列的高速视觉数据集，用于促进算法研究和开发。</li>
-  <li>场景类别：运动球类场景（13个序列）、复杂运动场景（8个序列）、特殊场景（8个序列）、生活场景（22个序列）。</li>
-  <li>数据特性：图像分辨率400×250，采样频率20,000 Hz，二进制spike事件流。</li>
-  <li>应用方向：图像重建、高速目标检测与追踪、运动分析（分割、光流估计、轨迹分析）、相机自运动研究等。</li>
+  <li>用途：主要用作训练集，包含随机生成的高速运动场景。</li>
+  <li>场景类别：100类，每类包含500帧脉冲流。</li>
+  <li>光流标签：每隔10帧(Δt=10)和20帧(Δt=20)生成光流，共50,000帧标签。</li>
+  <li>数据格式：脉冲流为二进制矩阵(H×W×N)，光流标签为二维运动矢量场(H×W×2)。</li>
 </ul>
 
       </p>
@@ -997,19 +997,19 @@ Section, `size=full` w/ figure
   >
     
       <a
-        href="https://hcypkumain.github.io/?search=&quot;tag: high-speed&quot;"
+        href="https://hcypkumain.github.io/?search=&quot;tag: optical flow&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;high-speed&quot;"
+        data-tooltip="Show items with the tag &quot;optical flow&quot;"
       >
-        high-speed
+        optical flow
       </a>
     
       <a
-        href="https://hcypkumain.github.io/?search=&quot;tag: real&quot;"
+        href="https://hcypkumain.github.io/?search=&quot;tag: simulate&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;real&quot;"
+        data-tooltip="Show items with the tag &quot;simulate&quot;"
       >
-        real
+        simulate
       </a>
     
       <a
@@ -1772,12 +1772,12 @@ Section, `size=full` w/ figure
 <div class="card" data-style="">
   <a
     
-    aria-label="SPIFT(Spikingly Flying Things)"
+    aria-label="momVidarReal2021"
     class="card-image"
   >
     <img
-      src="/images/dataset_image/spift.png"
-      alt="SPIFT(Spikingly Flying Things)"
+      src="/images/dataset_image/Bananas_1.gif"
+      alt="momVidarReal2021"
       loading="lazy"
       onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
 
@@ -1791,7 +1791,7 @@ Section, `size=full` w/ figure
         
         class="card-title"
       >
-        SPIFT(Spikingly Flying Things)
+        momVidarReal2021
     </a>
     
 
@@ -1800,10 +1800,10 @@ Section, `size=full` w/ figure
     
       <p>
         <ul>
-  <li>用途：主要用作训练集，包含随机生成的高速运动场景。</li>
-  <li>场景类别：100类，每类包含500帧脉冲流。</li>
-  <li>光流标签：每隔10帧(Δt=10)和20帧(Δt=20)生成光流，共50,000帧标签。</li>
-  <li>数据格式：脉冲流为二进制矩阵(H×W×N)，光流标签为二维运动矢量场(H×W×2)。</li>
+  <li>用途：包含51段真实场景脉冲序列的高速视觉数据集，用于促进算法研究和开发。</li>
+  <li>场景类别：运动球类场景（13个序列）、复杂运动场景（8个序列）、特殊场景（8个序列）、生活场景（22个序列）。</li>
+  <li>数据特性：图像分辨率400×250，采样频率20,000 Hz，二进制spike事件流。</li>
+  <li>应用方向：图像重建、高速目标检测与追踪、运动分析（分割、光流估计、轨迹分析）、相机自运动研究等。</li>
 </ul>
 
       </p>
@@ -1822,19 +1822,19 @@ Section, `size=full` w/ figure
   >
     
       <a
-        href="https://hcypkumain.github.io/?search=&quot;tag: optical flow&quot;"
+        href="https://hcypkumain.github.io/?search=&quot;tag: high-speed&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;optical flow&quot;"
+        data-tooltip="Show items with the tag &quot;high-speed&quot;"
       >
-        optical flow
+        high-speed
       </a>
     
       <a
-        href="https://hcypkumain.github.io/?search=&quot;tag: simulate&quot;"
+        href="https://hcypkumain.github.io/?search=&quot;tag: real&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;simulate&quot;"
+        data-tooltip="Show items with the tag &quot;real&quot;"
       >
-        simulate
+        real
       </a>
     
       <a
@@ -2646,8 +2646,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/10.1109/TNNLS.2025.3478241" target="_blank" rel="noopener" class="citation-image" aria-label="Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs">
-        <img src="" alt="Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://arxiv.org/abs/2512.05472" target="_blank" rel="noopener" class="citation-image" aria-label="Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation">
+        <img src="" alt="Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -2656,8 +2656,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://doi.org/10.1109/TNNLS.2025.3478241" target="_blank" rel="noopener" class="citation-title">
-          Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs
+        <a href="https://arxiv.org/abs/2512.05472" target="_blank" rel="noopener" class="citation-title">
+          Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation
         </a>
         
         
@@ -2669,7 +2669,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            IEEE Transactions on Neural Networks and Learning Systems, 2025
+            arXiv preprint arXiv:2512.05472, 2025
           </span>
         
       </div>
@@ -2940,8 +2940,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://arxiv.org/abs/2512.05472" target="_blank" rel="noopener" class="citation-image" aria-label="Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation">
-        <img src="" alt="Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://doi.org/10.1109/TNNLS.2025.3478241" target="_blank" rel="noopener" class="citation-image" aria-label="Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs">
+        <img src="" alt="Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -2950,8 +2950,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://arxiv.org/abs/2512.05472" target="_blank" rel="noopener" class="citation-title">
-          Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation
+        <a href="https://doi.org/10.1109/TNNLS.2025.3478241" target="_blank" rel="noopener" class="citation-title">
+          Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs
         </a>
         
         
@@ -2963,7 +2963,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            arXiv preprint arXiv:2512.05472, 2025
+            IEEE Transactions on Neural Networks and Learning Systems, 2025
           </span>
         
       </div>
@@ -2984,8 +2984,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:tkaPQYYpVKoC" target="_blank" rel="noopener" class="citation-image" aria-label="Decoding dynamic visual scenes across the brain hierarchy">
-        <img src="" alt="Decoding dynamic visual scenes across the brain hierarchy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:eJXPG6dFmWUC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingresformer: Bridging resnet and vision transformer in spiking neural networks">
+        <img src="" alt="Spikingresformer: Bridging resnet and vision transformer in spiking neural networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -2994,8 +2994,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:tkaPQYYpVKoC" target="_blank" rel="noopener" class="citation-title">
-          Decoding dynamic visual scenes across the brain hierarchy
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:eJXPG6dFmWUC" target="_blank" rel="noopener" class="citation-title">
+          Spikingresformer: Bridging resnet and vision transformer in spiking neural networks
         </a>
         
         
@@ -3004,8 +3004,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="Y Chen, P Beech, Z Yin, S Jia, J Zhang, Z Yu, JK Liu " tabindex="0">
-            Y Chen, P Beech, …, Z Yu, JK Liu
+          <span class="citation-authors" tabindex="0">
+            X Shi, Z Hao, Z Yu
 
           </span>
         
@@ -3013,7 +3013,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            PLOS Computational Biology 20 (8), e1012297, 2024
+            Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2024
           </span>
         
       </div>
@@ -4136,8 +4136,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:eJXPG6dFmWUC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingresformer: Bridging resnet and vision transformer in spiking neural networks">
-        <img src="" alt="Spikingresformer: Bridging resnet and vision transformer in spiking neural networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:tkaPQYYpVKoC" target="_blank" rel="noopener" class="citation-image" aria-label="Decoding dynamic visual scenes across the brain hierarchy">
+        <img src="" alt="Decoding dynamic visual scenes across the brain hierarchy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -4146,8 +4146,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:eJXPG6dFmWUC" target="_blank" rel="noopener" class="citation-title">
-          Spikingresformer: Bridging resnet and vision transformer in spiking neural networks
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:tkaPQYYpVKoC" target="_blank" rel="noopener" class="citation-title">
+          Decoding dynamic visual scenes across the brain hierarchy
         </a>
         
         
@@ -4156,8 +4156,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" tabindex="0">
-            X Shi, Z Hao, Z Yu
+          <span class="citation-authors" data-tooltip="Y Chen, P Beech, Z Yin, S Jia, J Zhang, Z Yu, JK Liu " tabindex="0">
+            Y Chen, P Beech, …, Z Yu, JK Liu
 
           </span>
         
@@ -4165,7 +4165,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2024
+            PLOS Computational Biology 20 (8), e1012297, 2024
           </span>
         
       </div>
@@ -4186,8 +4186,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:f2IySw72cVMC" target="_blank" rel="noopener" class="citation-image" aria-label="Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting">
-        <img src="" alt="Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:dshw04ExmUIC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence">
+        <img src="" alt="Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -4196,8 +4196,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:f2IySw72cVMC" target="_blank" rel="noopener" class="citation-title">
-          Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:dshw04ExmUIC" target="_blank" rel="noopener" class="citation-title">
+          Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence
         </a>
         
         
@@ -4206,8 +4206,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="S Yang, X Cui, Y Zhu, J Tang, S Li, Z Yu, B Shi " tabindex="0">
-            S Yang, X Cui, …, Z Yu, B Shi
+          <span class="citation-authors" data-tooltip="W Fang, Y Chen, J Ding, Z Yu, T Masquelier, D Chen, L Huang, H Zhou, ... " tabindex="0">
+            W Fang, Y Chen, …, H Zhou, …
 
           </span>
         
@@ -4215,7 +4215,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2023
+            Science Advances 9 (40), eadi1480, 2023
           </span>
         
       </div>
@@ -5050,8 +5050,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:dshw04ExmUIC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence">
-        <img src="" alt="Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:f2IySw72cVMC" target="_blank" rel="noopener" class="citation-image" aria-label="Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting">
+        <img src="" alt="Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5060,8 +5060,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:dshw04ExmUIC" target="_blank" rel="noopener" class="citation-title">
-          Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:f2IySw72cVMC" target="_blank" rel="noopener" class="citation-title">
+          Complementary intrinsics from neural radiance fields and cnns for outdoor scene relighting
         </a>
         
         
@@ -5070,8 +5070,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="W Fang, Y Chen, J Ding, Z Yu, T Masquelier, D Chen, L Huang, H Zhou, ... " tabindex="0">
-            W Fang, Y Chen, …, H Zhou, …
+          <span class="citation-authors" data-tooltip="S Yang, X Cui, Y Zhu, J Tang, S Li, Z Yu, B Shi " tabindex="0">
+            S Yang, X Cui, …, Z Yu, B Shi
 
           </span>
         
@@ -5079,7 +5079,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Science Advances 9 (40), eadi1480, 2023
+            Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2023
           </span>
         
       </div>
@@ -5100,8 +5100,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:blknAaTinKkC" target="_blank" rel="noopener" class="citation-image" aria-label="Representing the dynamics of high-dimensional data with non-redundant wavelets">
-        <img src="" alt="Representing the dynamics of high-dimensional data with non-redundant wavelets" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:2P1L_qKh6hAC" target="_blank" rel="noopener" class="citation-image" aria-label="Temporal Effective Batch Normalization in Spiking Neural Networks">
+        <img src="" alt="Temporal Effective Batch Normalization in Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5110,8 +5110,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:blknAaTinKkC" target="_blank" rel="noopener" class="citation-title">
-          Representing the dynamics of high-dimensional data with non-redundant wavelets
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:2P1L_qKh6hAC" target="_blank" rel="noopener" class="citation-title">
+          Temporal Effective Batch Normalization in Spiking Neural Networks
         </a>
         
         
@@ -5120,8 +5120,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="S Jia, X Li, T Huang, JK Liu, Z Yu " tabindex="0">
-            S Jia, X Li, …, JK Liu, Z Yu
+          <span class="citation-authors" data-tooltip="C Duan, J Ding, S Chen, Z Yu, T Huang " tabindex="0">
+            C Duan, J Ding, …, Z Yu, T Huang
 
           </span>
         
@@ -5129,7 +5129,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Patterns 3 (3), 2022
+            Advances in Neural Information Processing Systems, 2022
           </span>
         
       </div>
@@ -5815,8 +5815,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:2P1L_qKh6hAC" target="_blank" rel="noopener" class="citation-image" aria-label="Temporal Effective Batch Normalization in Spiking Neural Networks">
-        <img src="" alt="Temporal Effective Batch Normalization in Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:blknAaTinKkC" target="_blank" rel="noopener" class="citation-image" aria-label="Representing the dynamics of high-dimensional data with non-redundant wavelets">
+        <img src="" alt="Representing the dynamics of high-dimensional data with non-redundant wavelets" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5825,8 +5825,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:2P1L_qKh6hAC" target="_blank" rel="noopener" class="citation-title">
-          Temporal Effective Batch Normalization in Spiking Neural Networks
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:blknAaTinKkC" target="_blank" rel="noopener" class="citation-title">
+          Representing the dynamics of high-dimensional data with non-redundant wavelets
         </a>
         
         
@@ -5835,8 +5835,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="C Duan, J Ding, S Chen, Z Yu, T Huang " tabindex="0">
-            C Duan, J Ding, …, Z Yu, T Huang
+          <span class="citation-authors" data-tooltip="S Jia, X Li, T Huang, JK Liu, Z Yu " tabindex="0">
+            S Jia, X Li, …, JK Liu, Z Yu
 
           </span>
         
@@ -5844,7 +5844,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Advances in Neural Information Processing Systems, 2022
+            Patterns 3 (3), 2022
           </span>
         
       </div>
@@ -5865,8 +5865,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:hqOjcs7Dif8C" target="_blank" rel="noopener" class="citation-image" aria-label="Neural system identification with spike-triggered non-negative matrix factorization">
-        <img src="" alt="Neural system identification with spike-triggered non-negative matrix factorization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:qUcmZB5y_30C" target="_blank" rel="noopener" class="citation-image" aria-label="Incorporating learnable membrane time constant to enhance learning of spiking neural networks">
+        <img src="" alt="Incorporating learnable membrane time constant to enhance learning of spiking neural networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5875,8 +5875,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:hqOjcs7Dif8C" target="_blank" rel="noopener" class="citation-title">
-          Neural system identification with spike-triggered non-negative matrix factorization
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:qUcmZB5y_30C" target="_blank" rel="noopener" class="citation-title">
+          Incorporating learnable membrane time constant to enhance learning of spiking neural networks
         </a>
         
         
@@ -5885,8 +5885,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="S Jia, Z Yu, A Onken, Y Tian, T Huang, JK Liu " tabindex="0">
-            S Jia, Z Yu, …, T Huang, JK Liu
+          <span class="citation-authors" data-tooltip="W Fang, Z Yu, Y Chen, T Masquelier, T Huang, Y Tian " tabindex="0">
+            W Fang, Z Yu, …, T Huang, Y Tian
 
           </span>
         
@@ -5894,7 +5894,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            IEEE Transactions on Cybernetics 52 (6), 4772-4783, 2021
+            Proceedings of the IEEE/CVF international conference on computer vision …, 2021
           </span>
         
       </div>
@@ -6393,8 +6393,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:qUcmZB5y_30C" target="_blank" rel="noopener" class="citation-image" aria-label="Incorporating learnable membrane time constant to enhance learning of spiking neural networks">
-        <img src="" alt="Incorporating learnable membrane time constant to enhance learning of spiking neural networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:hqOjcs7Dif8C" target="_blank" rel="noopener" class="citation-image" aria-label="Neural system identification with spike-triggered non-negative matrix factorization">
+        <img src="" alt="Neural system identification with spike-triggered non-negative matrix factorization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -6403,8 +6403,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:qUcmZB5y_30C" target="_blank" rel="noopener" class="citation-title">
-          Incorporating learnable membrane time constant to enhance learning of spiking neural networks
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:hqOjcs7Dif8C" target="_blank" rel="noopener" class="citation-title">
+          Neural system identification with spike-triggered non-negative matrix factorization
         </a>
         
         
@@ -6413,8 +6413,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="W Fang, Z Yu, Y Chen, T Masquelier, T Huang, Y Tian " tabindex="0">
-            W Fang, Z Yu, …, T Huang, Y Tian
+          <span class="citation-authors" data-tooltip="S Jia, Z Yu, A Onken, Y Tian, T Huang, JK Liu " tabindex="0">
+            S Jia, Z Yu, …, T Huang, JK Liu
 
           </span>
         
@@ -6422,7 +6422,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Proceedings of the IEEE/CVF international conference on computer vision …, 2021
+            IEEE Transactions on Cybernetics 52 (6), 4772-4783, 2021
           </span>
         
       </div>
@@ -6443,8 +6443,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:IWHjjKOFINEC" target="_blank" rel="noopener" class="citation-image" aria-label="Network structure reconstruction with symmetry constraint">
-        <img src="" alt="Network structure reconstruction with symmetry constraint" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:b0M2c_1WBrUC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingjelly">
+        <img src="" alt="Spikingjelly" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -6453,8 +6453,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:IWHjjKOFINEC" target="_blank" rel="noopener" class="citation-title">
-          Network structure reconstruction with symmetry constraint
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:b0M2c_1WBrUC" target="_blank" rel="noopener" class="citation-title">
+          Spikingjelly
         </a>
         
         
@@ -6463,8 +6463,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="Z Hang, P Dai, S Jia, Z Yu " tabindex="0">
-            Z Hang, P Dai, S Jia, Z Yu
+          <span class="citation-authors" data-tooltip="W Fang, Y Chen, J Ding, D Chen, Z Yu, H Zhou, Y Tian " tabindex="0">
+            W Fang, Y Chen, …, H Zhou, Y Tian
 
           </span>
         
@@ -6472,7 +6472,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Chaos, Solitons &amp; Fractals 139, 110287, 2020
+            Multimedia Learn. Group, Inst. Digit. Media (NELVT), 2020
           </span>
         
       </div>
@@ -6875,8 +6875,8 @@ With figure components
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:b0M2c_1WBrUC" target="_blank" rel="noopener" class="citation-image" aria-label="Spikingjelly">
-        <img src="" alt="Spikingjelly" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:IWHjjKOFINEC" target="_blank" rel="noopener" class="citation-image" aria-label="Network structure reconstruction with symmetry constraint">
+        <img src="" alt="Network structure reconstruction with symmetry constraint" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -6885,8 +6885,8 @@ With figure components
       
 
       <div class="citation-details">
-        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:b0M2c_1WBrUC" target="_blank" rel="noopener" class="citation-title">
-          Spikingjelly
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qaUgD50AAAAJ&amp;pagesize=100&amp;citation_for_view=qaUgD50AAAAJ:IWHjjKOFINEC" target="_blank" rel="noopener" class="citation-title">
+          Network structure reconstruction with symmetry constraint
         </a>
         
         
@@ -6895,8 +6895,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="W Fang, Y Chen, J Ding, D Chen, Z Yu, H Zhou, Y Tian " tabindex="0">
-            W Fang, Y Chen, …, H Zhou, Y Tian
+          <span class="citation-authors" data-tooltip="Z Hang, P Dai, S Jia, Z Yu " tabindex="0">
+            Z Hang, P Dai, S Jia, Z Yu
 
           </span>
         
@@ -6904,7 +6904,7 @@ With figure components
         
           &nbsp;·&nbsp;
           <span class="citation-publisher">
-            Multimedia Learn. Group, Inst. Digit. Media (NELVT), 2020
+            Chaos, Solitons &amp; Fractals 139, 110287, 2020
           </span>
         
       </div>
